@@ -14,7 +14,7 @@ body {
 
 .sidebar {
     width: 20%;
-    background-color: #007BFF;
+    background-color: #7d28ecf3;
     color: white;
     padding-top: 20px;
     flex-direction: column;
@@ -23,13 +23,17 @@ body {
  
 }
 
-.sidebar h2 {
-    text-align: center;
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 900;
 }
+
 
 .sidebar ul {
     list-style-type: none;
@@ -66,12 +70,12 @@ body {
 .img_container img{
     width: 70%;
     margin-top: 3%;
-    box-shadow: 7px 7px 7px #007BFF;
+    box-shadow: 7px 7px 7px #7d28ecf3;
     border-radius: 10px;
 }
 .img_container h1{
     text-align: left;
     font-weight: 800;
     font-weight: 40px;
-    text-shadow: 2px 2px 2px #007BFF;
+    text-shadow: 2px 2px 2px #7d28ecf3;
 }
